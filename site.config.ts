@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   // twitter: 'x',
-  github: 'transitive-bullshit',
+  // github: 'transitive-bullshit',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -30,7 +30,7 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
-  isPreviewImageSupportEnabled: false,
+  isPreviewImageSupportEnabled: true,
 
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
@@ -54,11 +54,11 @@ export default siteConfig({
   navigationLinks: [
      {
        title: 'About',
-       pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+       pageId: 'c980a2d29aa54a6b89ac4ec95a8cd2a8'
      },
      {
        title: 'Contact',
-       pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+       pageId: 'c980a2d29aa54a6b89ac4ec95a8cd2a8'
      }
    ]
 })
